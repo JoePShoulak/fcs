@@ -4,7 +4,7 @@ $red: lighten(#ff0000, 10%);
 
 .center {
 	background: #FFF;
-	width: 600px;
+	width: 700px;
 	margin: {
 		left: auto;
 		right: auto;
@@ -24,11 +24,11 @@ $red: lighten(#ff0000, 10%);
 
 body {
 	background: {
-		color: #000;
-		image:	url("/assets/Sound_Check.jpg");
-		repeat: no-repeat;
-		position: center;
-		attachment: fixed;
+		color: #ccc;
+		// image:	url("/assets/Sound_Check.jpg");
+		// repeat: no-repeat;
+		// position: center;
+		// attachment: fixed;
 	}
 }
 
@@ -53,6 +53,11 @@ img {
 	float: right;
 	position: relative;
 	left: -40px;
+}
+
+#cover {
+	position: relative;
+	left: 60px;
 }
 
 nav {
@@ -85,6 +90,7 @@ nav {
 		}
 	}
 }
+
 
 #home {
 		height: 325px;
