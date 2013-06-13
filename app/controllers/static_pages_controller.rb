@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
   def home
     @model_src = "/assets/model.jpg"
+    @quote_src = "/assets/quote.jpg"
   end
 
   def bio
@@ -28,7 +29,6 @@ class StaticPagesController < ApplicationController
                 "/assets/gatsby.jpg",
                 "/assets/laugh.jpg",
                 "/assets/mpls.jpg",
-                "/assets/quote.jpg",
                 "/assets/singing.jpg",
                 "/assets/smile.jpg",
                 "/assets/smile2.jpg",
