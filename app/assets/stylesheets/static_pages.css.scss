@@ -9,7 +9,7 @@ $front-shadow: #444;
 
 /* Classes */
 .center {
-	background: #FFF;
+	background: #fff;
 	margin: {
 		left: auto;
 		right: auto;
@@ -67,13 +67,19 @@ img.gallery {
 }
 
 #home {
-		height: 325px;
+		height: 515px;
 }
 
 #model {
 	float: right;
 	position: relative;
 	left: -40px;
+}
+
+#quote {
+	float: right;
+	position: relative;
+	left: -60px;
 }
 
 #cover {
@@ -83,11 +89,11 @@ img.gallery {
 /* Large containers */
 body {
 	background: {
-		// color: #ccc;
-		image:	url("/assets/quote_large.jpg");
-		repeat: no-repeat;
-		position: center;
-		attachment: fixed;
+		color: #ccc;
+		// image:	url("/assets/quote_large.jpg");
+		// repeat: no-repeat;
+		// position: center;
+		// attachment: fixed;
 	}
 }
 

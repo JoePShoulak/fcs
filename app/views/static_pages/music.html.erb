@@ -1,7 +1,7 @@
 <% provide(:title, "MUSIC") %>
 <section class="center border">
 	<h3>MUSIC</h3>
-	Click on the albums to view them in iTunes!
+	Click on the albums to view them in iTunes
 	</br>
 	<% @albums.each do |album| %>
 		<%= link_to( image_tag(album[1], class: "album"), album[0]) %>
