@@ -1,6 +1,8 @@
 @import "bootstrap";
 
 $red: lighten(#ff0000, 10%);
+$blue: rgb(77, 104, 162);
+$tab-color: $blue;
 $back-shadow: #888;
 $front-shadow: #444;
 
@@ -69,10 +71,10 @@ nav {
 	text-align: center;
 	height: 23px;
 	li {
-		background: rgba($red, 0);
+		background: rgba($tab-color, 0);
 		overflow-y: hide;
 		border: {
-			bottom: solid 3px $red;
+			bottom: solid 3px $tab-color;
 		}
 		display: inline-block;
 		position: relative;
@@ -87,7 +89,7 @@ nav {
 			text-decoration: none;
 		}
 		&:hover {
-			background: rgba($red, 0.8);
+			background: rgba($tab-color, 0.8);
 			
 		}
 	}
