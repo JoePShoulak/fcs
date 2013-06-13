@@ -59,6 +59,10 @@ img.gallery {
 #vid {
 	position: relative;
 	box-shadow: 10px 10px 5px $back-shadow;
+	border: {
+		style: solid;
+		width: 1px;
+	}
 }
 
 #home {
