@@ -25,6 +25,14 @@ $front-shadow: #444;
 	box-shadow: 10px 10px 5px $front-shadow;
 }
 
+#vid {
+	position: relative;
+}
+
+#home {
+		height: 325px;
+}
+
 img.album {
 	position: relative;
 	height: 200px;
@@ -132,10 +140,6 @@ footer {
 		style: italic;
 		size: 8pt;
 	}
-}
-
-#home {
-		height: 325px;
 }
 
 h1, h3 {
