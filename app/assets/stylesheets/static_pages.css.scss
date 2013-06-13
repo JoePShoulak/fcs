@@ -1,6 +1,7 @@
 @import "bootstrap";
 
 $red: lighten(#ff0000, 10%);
+$shadow: #888;
 
 .center {
 	background: #FFF;
@@ -19,7 +20,7 @@ $red: lighten(#ff0000, 10%);
 		top: 10px;
 		bottom: 10px;
 	}
-	box-shadow: 10px 10px 5px #333;
+	box-shadow: 10px 10px 5px $shadow;
 }
 
 body {
@@ -46,7 +47,7 @@ img {
 		width: 1px;
 		style: solid;
 	}
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px $shadow;
 }
 
 #model {
