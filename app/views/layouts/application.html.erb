@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Prestongunderson</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+		<% @title = yield(:title) %>
+  	<title>Preston Gunderson | <%= @title %></title>
+  	<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	<%= csrf_meta_tags %>
+	</head>
+	<body>
+		<header class="center border">
+			<h1>Preston Gunderson</h1>
+		</header>
+		<nav class="center border">
+			<ul>
+				<li><a href=<%= @title == "HOME" ? "#" : "/home" %>>HOME</a></li>
+				<li><a href=<%= @title == "BIO" ? "#" : "/bio" %>>BIO</a></li>
+				<li><a href=<%= @title == "CONTACT" ? "#" : "/contact" %>>CONTACT</a></li>
+				<li><a href=<%= @title == "PHOTOS" ? "#" : "/photos" %>>PHOTOS</a></li>
+				<li><a href=<%= @title == "MUSIC" ? "#" : "/music" %>>MUSIC</a></li>
+				<li><a href=<%= @title == "TOUR" ? "#" : "/tour" %>>TOUR</a></li>
+				<li><a href=<%= @title == "VIDEOS" ? "#" : "/videos" %>>VIDEOS</a></li>
+			</ul>
+		</nav>
+		
+		<%= yield %>
 
-<%= yield %>
-
-</body>
+	</body>
 </html>
