@@ -18,5 +18,6 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
+    @pgund_email = "prestongundersonmusic@gmail.com"
   end
 end

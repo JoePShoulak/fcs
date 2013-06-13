@@ -5,6 +5,33 @@
 	margin: 0 auto 0 auto;
 }
 
+.wrap {
+	margin: 10px 10px 10px 10px;
+	float: right;
+}
+
+p {
+	text-indent: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+img {
+	padding: 5px 5px 5px 5px;
+	border:{
+		width: 1px;
+		style: solid;
+	}
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#model {
+	position: relative;
+	left: -40px;
+}
+
 .border {
 	border: {
 		style: solid;
@@ -20,12 +47,31 @@
 	}
 }
 
-nav li {
-	display: inline;
-	padding: {
-		right: 10px;
-		left: 10px;
+nav {
+	height: 20px;
+	li {
+		position: relative;
+		left: 30px;
+		display: inline-block;
+		padding: {
+			right: 10px;
+			left: 10px;
+		}
+		a, a:hover {
+			color: rgb(51, 51, 51);
+			font-weight: bold;
+			text-decoration: none;
+		}
+		&:hover {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+		}
 	}
+}
+
+section {
+	height: 350px;
 }
 
 h1, h3 {
