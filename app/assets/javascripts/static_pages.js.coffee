@@ -1,3 +1,2 @@
 $(document).ready ->
-	
-	$("body").css("height", $("section").outerHeight() + 565)
+	$("body").css("height", $("body").outerHeight() + 400)
