@@ -8,7 +8,7 @@
   	<%= csrf_meta_tags %>
 	</head>
 	<body>
-		<nav class="center border" <%= 'style="height: 375px"' if @title == "HOME" or @title == "VIDEOS" %>> 
+		<nav class="center border"> 
 			<ul>
 				<li><a href=<%= @title == "HOME" ? "#" : "/home" %>>HOME</a></li>
 				<li><a href=<%= @title == "BIO" ? "#" : "/bio" %>>BIO</a></li>

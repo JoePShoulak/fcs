@@ -11,13 +11,25 @@ $red: lighten(#ff0000, 10%);
 	}
 }
 
-body {
-	background: #CCC;
+.border {
+	margin-bottom: 10px;
+	padding: {
+		left: 10px;
+		right: 10px;
+		top: 10px;
+		bottom: 10px;
+	}
+	box-shadow: 10px 10px 5px #333;
 }
 
-.wrap {
-	margin: 10px 10px 10px 10px;
-	float: right;
+body {
+	background: {
+		color: #000;
+		image:	url("/assets/Sound_Check.jpg");
+		repeat: no-repeat;
+		position: center;
+		attachment: fixed;
+	}
 }
 
 p {
@@ -38,23 +50,13 @@ img {
 }
 
 #model {
+	float: right;
 	position: relative;
 	left: -40px;
 }
 
-.border {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: {
-		left: 10px;
-		right: 10px;
-		top: 10px;
-		bottom: 10px;
-	}
-	box-shadow: 10px 10px 5px #888888;
-}
-
 nav {
+	margin-top: 10px;
 	padding: {
 		left: 10px;
 		right: 10px;
@@ -79,7 +81,7 @@ nav {
 			text-decoration: none;
 		}
 		&:hover {
-			// background: rgba($red, 0.8);
+			background: rgba($red, 0.8);
 		}
 	}
 }
