@@ -8,9 +8,6 @@
   	<%= csrf_meta_tags %>
 	</head>
 	<body>
-		<header class="center border">
-			<h1>Preston Gunderson</h1>
-		</header>
 		<nav class="center border">
 			<ul>
 				<li><a href=<%= @title == "HOME" ? "#" : "/home" %>>HOME</a></li>
@@ -22,6 +19,9 @@
 				<li><a href=<%= @title == "VIDEOS" ? "#" : "/videos" %>>VIDEOS</a></li>
 			</ul>
 		</nav>
+		<header class="center border">
+			<h1>Preston Gunderson</h1>
+		</header>
 		
 		<%= yield %>
 
