@@ -1,11 +1,13 @@
 @import "bootstrap";
 
+/* Variables */
 $red: lighten(#ff0000, 10%);
 $blue: rgb(77, 104, 162);
 $tab-color: $blue;
 $back-shadow: #888;
 $front-shadow: #444;
 
+/* Classes */
 .center {
 	background: #FFF;
 	margin: {
@@ -23,14 +25,6 @@ $front-shadow: #444;
 		bottom: 10px;
 	}
 	box-shadow: 10px 10px 5px $front-shadow;
-}
-
-#vid {
-	position: relative;
-}
-
-#home {
-		height: 325px;
 }
 
 img.album {
@@ -61,32 +55,14 @@ img.gallery {
 	}
 }
 
-body {
-	background: {
-		color: #ccc;
-		// image:	url("/assets/Sound_Check.jpg");
-		// repeat: no-repeat;
-		// position: center;
-		// attachment: fixed;
-	}
-}
-
-p {
-	text-indent: 20px;
-}
-
-li {
-	list-style-type: none;
-}
-
-img {
-	padding: 5px 5px 5px 5px;
-	border:{
-		width: 1px;
-		style: solid;
-		color: #000;
-	}
+/* IDs */
+#vid {
+	position: relative;
 	box-shadow: 10px 10px 5px $back-shadow;
+}
+
+#home {
+		height: 325px;
 }
 
 #model {
@@ -97,6 +73,17 @@ img {
 
 #cover {
 	position: relative;
+}
+
+/* Large containers */
+body {
+	background: {
+		color: #ccc;
+		// image:	url("/assets/Sound_Check.jpg");
+		// repeat: no-repeat;
+		// position: center;
+		// attachment: fixed;
+	}
 }
 
 nav {
@@ -140,6 +127,25 @@ footer {
 		style: italic;
 		size: 8pt;
 	}
+}
+
+/* Small Containers */
+p {
+	text-indent: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+img {
+	padding: 5px 5px 5px 5px;
+	border:{
+		width: 1px;
+		style: solid;
+		color: #000;
+	}
+	box-shadow: 10px 10px 5px $back-shadow;
 }
 
 h1, h3 {
