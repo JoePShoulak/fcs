@@ -1,16 +1,7 @@
 <% provide(:title, "PHOTOS") %>
 <section class="center border">
 	<h3>PHOTOS</h3>
-	<img src="/assets/Blond.jpg" 			class="gallery"/>
-	<img src="/assets/clap.jpg" 			class="gallery"/>
-	<img src="/assets/color.jpg" 			class="gallery"/>
-	<img src="/assets/Gatsby.jpg" 		class="gallery"/>
-	<img src="/assets/laugh.jpg" 			class="gallery"/>
-	<img src="/assets/MPLS.jpg" 			class="gallery"/>
-	<img src="/assets/Quote.jpg" 			class="gallery"/>
-	<img src="/assets/Singing.jpg" 		class="gallery"/>
-	<img src="/assets/smile.jpg" 			class="gallery"/>
-	<img src="/assets/smile2.jpg" 		class="gallery"/>
-	<img src="/assets/Terrarium.jpg" 	class="gallery"/>
-	<img src="/assets/young.jpg" 			class="gallery"/>
+	<% @photos.each do |photo| %>
+		<%= image_tag(photo, class: "gallery")%>
+	<% end %>
 </section>
