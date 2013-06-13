@@ -79,13 +79,13 @@ nav {
 			text-decoration: none;
 		}
 		&:hover {
-			background: rgba($red, 0.8);
+			// background: rgba($red, 0.8);
 		}
 	}
 }
 
 section {
-	height: 375px;
+	min-height: 375px;
 }
 
 h1, h3 {

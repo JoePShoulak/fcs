@@ -1,3 +1,5 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+$(document).ready ->
+	$("nav ul li").mouseenter ->
+		$(@).css("background", "rgba(255, 51, 51, .8)")
+	$("nav ul li").mouseleave ->
+		$(@).css("background", "rgba(255, 51, 51, 0)")
