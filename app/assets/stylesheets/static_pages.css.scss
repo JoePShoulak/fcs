@@ -25,6 +25,34 @@ $front-shadow: #444;
 	box-shadow: 10px 10px 5px $front-shadow;
 }
 
+img.album {
+	position: relative;
+	height: 200px;
+	margin: {
+		left: 10px;
+		right: 10px;
+		bottom: 30px;
+	}
+	&:hover {
+		top: -20px;
+		box-shadow: 10px 30px 5px $front-shadow;
+	}
+}
+
+img.gallery {
+	height: 300px;
+	margin: {
+		left: 50px;
+		right: 50px;
+		bottom: 50px;
+	}
+	&:hover {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+}
+
 body {
 	background: {
 		color: #ccc;
@@ -48,6 +76,7 @@ img {
 	border:{
 		width: 1px;
 		style: solid;
+		color: #000;
 	}
 	box-shadow: 10px 10px 5px $back-shadow;
 }
@@ -90,7 +119,6 @@ nav {
 		}
 		&:hover {
 			background: rgba($tab-color, 0.8);
-			
 		}
 	}
 }
@@ -112,4 +140,5 @@ footer {
 
 h1, h3 {
 	text-align: center;
+	margin-bottom: 30px;
 }
