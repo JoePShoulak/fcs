@@ -1,11 +1,11 @@
 @import "bootstrap";
 
 $red: lighten(#ff0000, 10%);
-$shadow: #888;
+$back-shadow: #888;
+$front-shadow: #444;
 
 .center {
 	background: #FFF;
-	width: 700px;
 	margin: {
 		left: auto;
 		right: auto;
@@ -20,7 +20,7 @@ $shadow: #888;
 		top: 10px;
 		bottom: 10px;
 	}
-	box-shadow: 10px 10px 5px $shadow;
+	box-shadow: 10px 10px 5px $front-shadow;
 }
 
 body {
@@ -47,7 +47,7 @@ img {
 		width: 1px;
 		style: solid;
 	}
-	box-shadow: 10px 10px 5px $shadow;
+	box-shadow: 10px 10px 5px $back-shadow;
 }
 
 #model {
@@ -58,7 +58,6 @@ img {
 
 #cover {
 	position: relative;
-	left: 60px;
 }
 
 nav {
@@ -71,6 +70,7 @@ nav {
 	height: 23px;
 	li {
 		background: rgba($red, 0);
+		overflow-y: hide;
 		border: {
 			bottom: solid 3px $red;
 		}
@@ -88,6 +88,7 @@ nav {
 		}
 		&:hover {
 			background: rgba($red, 0.8);
+			
 		}
 	}
 }
