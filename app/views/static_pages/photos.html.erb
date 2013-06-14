@@ -1,7 +1,11 @@
 <% provide(:title, "PHOTOS") %>
-<section class="center border">
+<section class="center border main">
 	<h3>PHOTOS</h3>
 	<% @photos.each do |photo| %>
-		<%= link_to image_tag(photo, :height => 200, class: "photo gallery" ), photo %>
+	<section class="gallery">
+		<section class="photo">
+			<%= link_to image_tag(photo, :height => 200), photo %>
+		</section>
+	</section>
 	<% end %>
 </section>
