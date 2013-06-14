@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
-    @model_src = "/assets/model.jpg"
+    @model_src = "/assets/model-pic.jpg"
     @quote_src = "/assets/quote.jpg"
   end
 
