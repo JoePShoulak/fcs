@@ -5,7 +5,7 @@
 	</br> </br> </br>
 	<% @albums.each do |album| %>
 		<section class='album'>
-		<%= link_to( image_tag(album[1]), album[0]) %>
+		<%= link_to( image_tag(album[1], class: "album"), album[0] ) %>
 		<p> <%= album[2] %> </p>
 		</section>
 	<% end %>

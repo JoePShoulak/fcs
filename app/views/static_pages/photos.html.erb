@@ -2,6 +2,6 @@
 <section class="center border">
 	<h3>PHOTOS</h3>
 	<% @photos.each do |photo| %>
-		<%= link_to image_tag(photo, :height => 200, class: "gallery" ), photo%>
+		<%= link_to image_tag(photo, :height => 200, class: "photo gallery" ), photo %>
 	<% end %>
 </section>
