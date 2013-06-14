@@ -2,9 +2,12 @@
 <section class="center border">
 	<h3>MUSIC</h3>
 	Click on the albums to view them in iTunes
-	</br>
+	</br> </br> </br>
 	<% @albums.each do |album| %>
-		<%= link_to( image_tag(album[1], class: "album"), album[0]) %>
+		<section class='album'>
+		<%= link_to( image_tag(album[1]), album[0]) %>
+		<p> <%= album[2] %> </p>
+		</section>
 	<% end %>
 	<a>Getting Good at Starting Over</a> (Coming soon!)
 </section>
