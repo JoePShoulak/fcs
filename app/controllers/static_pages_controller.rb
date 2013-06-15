@@ -36,17 +36,17 @@ class StaticPagesController < ApplicationController
   end
 
   def photos
-    @photos = [ ["/assets/blond.jpg",     "/assets/blond.jpg"],
-                ["/assets/clap.jpg",      "/assets/clap.jpg"],
-                ["/assets/color.jpg",     "/assets/color.jpg"],
-                ["/assets/gatsby.jpg",    "/assets/gatsby.jpg"],
-                ["/assets/laugh.jpg",     "/assets/laugh.jpg"],
-                ["/assets/mpls.jpg",      "/assets/mpls.jpg"],
-                ["/assets/singing.jpg",   "/assets/singing.jpg"],
-                ["/assets/smile.jpg",     "/assets/smile.jpg"],
-                ["/assets/smile2.jpg",    "/assets/smile2.jpg"],
-                ["/assets/terrarium.jpg", "/assets/terrarium.jpg"],
-                ["/assets/young.jpg",     "/assets/young.jpg"] ]
+    @photos = [ ["/assets/blond.jpg",     "/assets/blond-large.jpg"],
+                ["/assets/clap.jpg",      "/assets/clap-large.jpg"],
+                ["/assets/color.jpg",     "/assets/color-large.jpg"],
+                ["/assets/gatsby.jpg",    "/assets/gatsby-large.jpg"],
+                ["/assets/laugh.jpg",     "/assets/laugh-large.jpg"],
+                ["/assets/mpls.jpg",      "/assets/mpls-large.jpg"],
+                ["/assets/singing.jpg",   "/assets/singing-large.jpg"],
+                ["/assets/smile.jpg",     "/assets/smile-large.jpg"],
+                ["/assets/smile2.jpg",    "/assets/smile2-large.jpg"],
+                ["/assets/terrarium.jpg", "/assets/terrarium-large.jpg"],
+                ["/assets/young.jpg",     "/assets/young-large.jpg"] ]
   end
 
   def tour
