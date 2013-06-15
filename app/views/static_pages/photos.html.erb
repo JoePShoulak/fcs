@@ -4,7 +4,7 @@
 	<% @photos.each do |photo| %>
 	<section class="gallery">
 		<section class="photo">
-			<%= link_to image_tag(photo, :height => 200), photo %>
+			<%= link_to image_tag(photo[0], :height => 200), photo[1], class: "fancybox" %>
 		</section>
 	</section>
 	<% end %>
