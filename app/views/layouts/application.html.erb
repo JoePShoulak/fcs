@@ -13,13 +13,9 @@
 	<body>
 		<nav class="center border"> 
 			<ul>
-				<li><a href=<%= @title == "HOME" ? "#" : "/home" %>>HOME</a></li>
-				<li><a href=<%= @title == "BIO" ? "#" : "/bio" %>>BIO</a></li>
-				<li><a href=<%= @title == "PHOTOS" ? "#" : "/photos" %>>PHOTOS</a></li>
-				<li><a href=<%= @title == "MUSIC" ? "#" : "/music" %>>MUSIC</a></li>
-				<li><a href=<%= @title == "TOUR" ? "#" : "/tour" %>>TOUR</a></li>
-				<li><a href=<%= @title == "VIDEOS" ? "#" : "/videos" %>>VIDEOS</a></li>
-				<li><a href=<%= @title == "CONTACT" ? "#" : "/contact" %>>CONTACT</a></li>
+				<% ["Home", "Bio", "Photos", "Music", "Tour", "Videos", "Contact"].each do |page| %>
+					<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}" ) %></li>
+				<% end %>
 			</ul>
 		</nav>
 		<header class="center border">
