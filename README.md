@@ -1,7 +1,10 @@
-Sites preston wants me to look at:
-
-http://dustinhatzenbuhler.com/
-
-http://patomotown.com/
-
-http://www.thefeelin.com/
+Todo list:
+	- Fonts
+	- Background image
+	- Bio:
+		- Family photo(?)
+	- Contact:
+		- Need more
+	- Get domain name
+		- Vanity email address?
+	
