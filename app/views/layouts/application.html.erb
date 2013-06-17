@@ -3,9 +3,24 @@
 	<head>
 		<% @title = yield(:title) %>
   	<title>Preston Gunderson | <%= @title %></title>
+		<link href='http://fonts.googleapis.com/css?family=Milonga' rel='stylesheet' type='text/css'>
   	<%= stylesheet_link_tag    "application", :media => "all" %>
   	<%= javascript_include_tag "application" %>
   	<%= csrf_meta_tags %>
+
+		<script type="text/javascript">
+		  WebFontConfig = {
+		    google: { families: [ 'Milonga::latin' ] }
+		  };
+		  (function() {
+		    var wf = document.createElement('script');
+		    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		    wf.type = 'text/javascript';
+		    wf.async = 'true';
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(wf, s);
+		  })(); </script>
 	</head>
 	<body>
 		<nav class="center border"> 
