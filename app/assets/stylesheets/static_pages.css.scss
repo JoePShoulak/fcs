@@ -17,6 +17,10 @@ $tab-color: $blue;
 
 header, nav, footer, section.main {
 	width: 650px;
+	border: {
+		width: 2px;
+		style: groove;
+	}
 }
 
 p {
