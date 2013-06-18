@@ -45,8 +45,7 @@ class StaticPagesController < ApplicationController
                 ["/assets/mpls.jpg",      "/assets/mpls-large.jpg"],
                 ["/assets/singing.jpg",   "/assets/singing-large.jpg"],
                 ["/assets/smile.jpg",     "/assets/smile-large.jpg"],
-                ["/assets/smile2.jpg",    "/assets/smile2-large.jpg"],
-                ["/assets/terrarium.jpg", "/assets/terrarium-large.jpg"] ]
+                ["/assets/smile2.jpg",    "/assets/smile2-large.jpg"] ]
   end
 
   def tour
