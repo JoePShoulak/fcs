@@ -23,6 +23,11 @@ header, nav, footer, section.main {
 	}
 }
 
+header h1 {
+	position: relative;
+	top: 10px;
+}
+
 p {
 	width: auto;
 	font-family: 'Fauna One', serif;
