@@ -59,7 +59,10 @@ p {
 #supertitle {
 	position: relative;
 	left: 60px;
-	top: 20px;
+	bottom: 5px;
+	-webkit-transform: rotate(-7.5deg);
+	-moz-transform: rotate(-7.5deg);
+	transform: rotate(-7.5deg);
 }
 
 /* Large containers */
