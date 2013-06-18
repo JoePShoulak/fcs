@@ -10,21 +10,25 @@ class StaticPagesController < ApplicationController
 
   def music
     itunes_prefix     = "https://itunes.apple.com/us/album/"
+    
     accident_url      = itunes_prefix + "accidental-love-letters-single/id485158289"
     forever_url       = itunes_prefix + "forever-and-tomorrow-single/id517796378"
     green_url         = itunes_prefix + "green-single/id510678840"
     recluse_url       = itunes_prefix + "the-recluse-ep/id579311062"
     gone_url          = itunes_prefix + "while-i-was-gone/id486808582"
+    
     accident_src      = "/assets/accident.jpg"
     forever_src       = "/assets/forever.jpg"
     green_src         = "/assets/green.jpg"
     recluse_src       = "/assets/recluse.jpg"
     gone_src          = "/assets/gone.jpg"
+    
     accident_name     = "Accidental Love Letters"
     forever_name      = "Forever and Tomorrow"
     green_name        = "Green"
     recluse_name      = "The Recluse"
     gone_name         = "While I Was Gone"
+    
     @albums = [ [accident_url,  accident_src, accident_name ],
                 [forever_url,   forever_src,  forever_name  ],
                 [green_url,     green_src,    green_name    ],
@@ -36,7 +40,7 @@ class StaticPagesController < ApplicationController
     @video_url = "http://www.youtube.com/embed/videoseries?list=PLGy1un5MExBjNU6qEXjfb6TZT07F4kJ3n"
   end
 
-  def photos
+  def gallery
     @photos = [ ["/assets/blond.jpg",     "/assets/blond-large.jpg"],
                 ["/assets/clap.jpg",      "/assets/clap-large.jpg"],
                 ["/assets/color.jpg",     "/assets/color-large.jpg"],

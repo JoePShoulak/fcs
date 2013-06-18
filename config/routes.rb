@@ -1,11 +1,11 @@
 Prestongunderson::Application.routes.draw do
-  match "/home",     to: "static_pages#home"
-  match "/bio",      to: "static_pages#bio"
-  match "/videos",   to: "static_pages#videos"
-  match "/music",    to: "static_pages#music"
-  match "/photos",   to: "static_pages#photos"
-  match "/tour",     to: "static_pages#tour"
-  match "/contact",  to: "static_pages#contact"
+  match "/home",    to: "static_pages#home"
+  match "/bio",     to: "static_pages#bio"
+  match "/videos",  to: "static_pages#videos"
+  match "/music",   to: "static_pages#music"
+  match "/gallery", to: "static_pages#gallery"
+  match "/tour",    to: "static_pages#tour"
+  match "/contact", to: "static_pages#contact"
   
   root to: "static_pages#home"
 
