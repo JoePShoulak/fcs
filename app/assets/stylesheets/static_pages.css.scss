@@ -43,10 +43,6 @@ p {
 	float: right;
 }
 
-#quote {
-	float: left;
-}
-
 #young {
 	left: 125px;
 }
@@ -150,6 +146,17 @@ footer {
 	font: {
 		style: italic;
 		size: 8pt;
+	}
+}
+
+article {
+	text-indent: 20px;
+	font: {
+		size: 10pt;
+		family: 'fauna one', serif;
+	}
+	&:first-letter {
+		font-size: 200%;
 	}
 }
 
