@@ -5,6 +5,7 @@ class StaticPagesController < ApplicationController
   end
 
   def bio
+    @youngpreston = "/assets/young.jpg"
   end
 
   def music
@@ -45,8 +46,7 @@ class StaticPagesController < ApplicationController
                 ["/assets/singing.jpg",   "/assets/singing-large.jpg"],
                 ["/assets/smile.jpg",     "/assets/smile-large.jpg"],
                 ["/assets/smile2.jpg",    "/assets/smile2-large.jpg"],
-                ["/assets/terrarium.jpg", "/assets/terrarium-large.jpg"],
-                ["/assets/young.jpg",     "/assets/young-large.jpg"] ]
+                ["/assets/terrarium.jpg", "/assets/terrarium-large.jpg"] ]
   end
 
   def tour

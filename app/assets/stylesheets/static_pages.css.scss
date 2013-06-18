@@ -35,22 +35,20 @@ p {
 }
 
 /* IDs */
-#vid {
+#vid, #model, #quote, #young, #cover {
 	position: relative;
 }
 
 #model {
 	float: right;
-	position: relative;
 }
 
 #quote {
 	float: left;
-	position: relative;
 }
 
-#cover {
-	position: relative;
+#young {
+	left: 125px;
 }
 
 /* Large containers */
