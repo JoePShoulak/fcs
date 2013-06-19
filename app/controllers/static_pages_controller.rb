@@ -56,5 +56,17 @@ class StaticPagesController < ApplicationController
 
   def contact
     @pgund_email = "prestongundersonmusic@gmail.com"
+    image_prefix  = "http://static.viewbook.com/images/social_icons/"
+    fb_image_link = "#{image_prefix}facebook_32.png"
+    tw_image_link = "#{image_prefix}twitter_32.png"
+    li_image_link = "#{image_prefix}linkedin_32.png"
+    
+    fb_ext_link   = "https://www.facebook.com/pages/Preston-Gunderson/99040757537"
+    tw_ext_link   = "https://www.twitter.com/PGundersonmusic"
+    li_ext_link   = "http://www.linkedin.com/profile/view?id=258926105&trk=nav_responsive_tab_profile"
+    
+    @links = [  [ fb_image_link, fb_ext_link ],
+                [ tw_image_link, tw_ext_link ], 
+                [ li_image_link, li_ext_link ]  ]
   end
 end

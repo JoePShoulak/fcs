@@ -3,9 +3,9 @@
 	<h5> For booking, email Preston at... </h5>
 	<a href="mailto:<%= @pgund_email %>"><%= @pgund_email %></a>
 	<h5> For news and updates... </h5>
-	<a href="https://www.facebook.com/pages/Preston-Gunderson/99040757537">Facebook</a> </br>
-	<a href="https://twitter.com/PGundersonmusic">Twitter</a> </br>
-	<a href="http://www.linkedin.com/profile/view?id=258926105&trk=nav_responsive_tab_profile">LinkedIn</a> </br>
+	<% @links.each do |link| %>
+		<%= link_to image_tag(link[0]), link[1] %>
+	<% end %>
 	<a href="http://www.youtube.com/user/PrestoGundersonMusic">YouTube</a> </br>
 	<%= image_tag("/assets/singing.jpg", id: "singing") %>
 </section>
