@@ -1,0 +1,34 @@
+<head>
+	<% @title = yield(:title) %>
+	<title>Preston Gunderson | <%= @title %></title>
+	<%= stylesheet_link_tag 		"http://fonts.googleapis.com/css?family=Fauna+One|Milonga" %>
+	<%= stylesheet_link_tag    	"application", :media => "all" %>
+	<%= javascript_include_tag 	"application" %>
+	<%= csrf_meta_tags %>
+
+	<script type="text/javascript">
+	  WebFontConfig = {
+	    google: { families: [ 'Fauna+One::latin', 'Milonga::latin' ] }
+	  };
+	  (function() {
+	    var wf = document.createElement('script');
+	    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+	      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	    wf.type = 'text/javascript';
+	    wf.async = 'true';
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(wf, s);
+	  })();
+	</script>
+</head>
+<nav class="center border"> 
+	<ul>
+		<% ["Home", "Bio", "Gallery", "Music", "Tour", "Videos", "Contact"].each do |page| %>
+			<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}" ) %></li>
+		<% end %>
+	</ul>
+</nav>
+<header class="center border">
+	<p id="supertitle">The official site of Singer Songwriter</p>
+	<h1>Preston Gunderson</h1>
+</header>
