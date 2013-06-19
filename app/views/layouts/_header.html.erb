@@ -1,14 +1,14 @@
 <head>
 	<% @title = yield(:title) %>
 	<title>Preston Gunderson | <%= @title %></title>
-	<%= stylesheet_link_tag 		"http://fonts.googleapis.com/css?family=Fauna+One|Milonga" %>
+	<%= stylesheet_link_tag 		"http://fonts.googleapis.com/css?family=Fauna+One|Mr+Bedfort|Milonga" %>
 	<%= stylesheet_link_tag    	"application", :media => "all" %>
 	<%= javascript_include_tag 	"application" %>
 	<%= csrf_meta_tags %>
-
+	
 	<script type="text/javascript">
 	  WebFontConfig = {
-	    google: { families: [ 'Fauna+One::latin', 'Milonga::latin' ] }
+	    google: { families: [ 'Fauna+One::latin', 'Mr+Bedfort::latin', 'Milonga::latin' ] }
 	  };
 	  (function() {
 	    var wf = document.createElement('script');
@@ -18,8 +18,7 @@
 	    wf.async = 'true';
 	    var s = document.getElementsByTagName('script')[0];
 	    s.parentNode.insertBefore(wf, s);
-	  })();
-	</script>
+	  })(); </script>
 </head>
 <nav class="center border"> 
 	<ul>
