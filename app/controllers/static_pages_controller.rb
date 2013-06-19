@@ -47,7 +47,6 @@ class StaticPagesController < ApplicationController
                 ["/assets/gatsby.jpg",    "/assets/gatsby-large.jpg"],
                 ["/assets/laugh.jpg",     "/assets/laugh-large.jpg"],
                 ["/assets/mpls.jpg",      "/assets/mpls-large.jpg"],
-                ["/assets/singing.jpg",   "/assets/singing-large.jpg"],
                 ["/assets/smile.jpg",     "/assets/smile-large.jpg"],
                 ["/assets/smile2.jpg",    "/assets/smile2-large.jpg"] ]
   end
