@@ -117,6 +117,10 @@ $tab-color: $blue;
 	height: 100px;
 	text-align: center;
 	line-height: 175px;
+	border: {
+		width: 2px;
+		style: groove;
+	}
 }
 
 /* Large containers */
