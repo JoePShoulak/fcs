@@ -137,6 +137,11 @@ font-size: 80%;
 	}
 }
 
+#subscribe-confirm {
+	text-align: center;
+	font-family: 'Fauna One', serif;
+}
+
 /* Large containers */
 body {
 	background: {
@@ -148,7 +153,7 @@ body {
 	}
 }
 
-header, nav, footer, #main {
+header, nav, footer, #main, #subscribe-confirm {
 	width: 650px;
 	border: {
 		width: 2px;
