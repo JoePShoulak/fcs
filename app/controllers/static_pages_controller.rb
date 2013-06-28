@@ -1,11 +1,11 @@
 class StaticPagesController < ApplicationController
   def home
-    @model_src = "/assets/model-pic.jpg"
+    @model_src = "/assets/photos/small/model.jpg"
     @quote_src = "/assets/quote.jpg"
   end
 
   def bio
-    @youngpreston = "/assets/young.jpg"
+    @youngpreston = "/assets/photos/small/young.jpg"
   end
 
   def music
@@ -17,11 +17,11 @@ class StaticPagesController < ApplicationController
     recluse_url       = itunes_prefix + "the-recluse-ep/id579311062"
     gone_url          = itunes_prefix + "while-i-was-gone/id486808582"
     
-    accident_src      = "/assets/accident.jpg"
-    forever_src       = "/assets/forever.jpg"
-    green_src         = "/assets/green.jpg"
-    recluse_src       = "/assets/recluse.jpg"
-    gone_src          = "/assets/gone.jpg"
+    accident_src      = "/assets/albums/accident.jpg"
+    forever_src       = "/assets/albums/forever.jpg"
+    green_src         = "/assets/albums/green.jpg"
+    recluse_src       = "/assets/albums/recluse.jpg"
+    gone_src          = "/assets/albums/gone.jpg"
     
     accident_name     = "Accidental Love Letters"
     forever_name      = "Forever and Tomorrow"
@@ -41,14 +41,14 @@ class StaticPagesController < ApplicationController
   end
 
   def gallery
-    @photos = [ ["/assets/blond.jpg",     "/assets/blond-large.jpg"],
-                ["/assets/clap.jpg",      "/assets/clap-large.jpg"],
-                ["/assets/color.jpg",     "/assets/color-large.jpg"],
-                ["/assets/gatsby.jpg",    "/assets/gatsby-large.jpg"],
-                ["/assets/laugh.jpg",     "/assets/laugh-large.jpg"],
-                ["/assets/mpls.jpg",      "/assets/mpls-large.jpg"],
-                ["/assets/smile.jpg",     "/assets/smile-large.jpg"],
-                ["/assets/smile2.jpg",    "/assets/smile2-large.jpg"] ]
+    @photos = [ ["/assets/photos/small/blond.jpg",      "/assets/photos/large/blond.jpg"],
+                ["/assets/photos/small/clap.jpg",       "/assets/photos/large/clap.jpg"],
+                ["/assets/photos/small/color.jpg",      "/assets/photos/large/color.jpg"],
+                ["/assets/photos/small/gatsby.jpg",     "/assets/photos/large/gatsby.jpg"],
+                ["/assets/photos/small/laugh.jpg",      "/assets/photos/large/laugh.jpg"],
+                ["/assets/photos/small/mpls.jpg",       "/assets/photos/large/mpls.jpg"],
+                ["/assets/photos/small/smile.jpg",      "/assets/photos/large/smile.jpg"],
+                ["/assets/photos/small/smile-2.jpg",    "/assets/photos/large/smile-2.jpg"] ]
   end
 
   def tour
@@ -56,11 +56,10 @@ class StaticPagesController < ApplicationController
 
   def contact
     @pgund_email  = "prestongundersonmusic@gmail.com"
-    image_prefix  = "http://static.viewbook.com/images/social_icons/"
-    fb_image_link = "#{image_prefix}facebook_32.png"
-    tw_image_link = "#{image_prefix}twitter_32.png"
-    li_image_link = "#{image_prefix}linkedin_32.png"
-    yt_image_link = "/assets/youtube.png"
+    fb_image_link = "/assets/social/facebook.png"
+    tw_image_link = "/assets/social/twitter.png"
+    li_image_link = "/assets/social/linkedin.png"
+    yt_image_link = "/assets/social/youtube.png"
     
     fb_ext_link   = "https://www.facebook.com/pages/Preston-Gunderson/99040757537"
     tw_ext_link   = "https://www.twitter.com/PGundersonmusic"
@@ -71,5 +70,8 @@ class StaticPagesController < ApplicationController
                 [ tw_image_link, tw_ext_link ], 
                 [ yt_image_link, yt_ext_link ], 
                 [ li_image_link, li_ext_link ]  ]
+  end
+  
+  def merch
   end
 end

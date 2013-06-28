@@ -22,7 +22,7 @@
 </head>
 <nav class="center border"> 
 	<ul>
-		<% ["Home", "Bio", "Gallery", "Music", "Tour", "Videos", "Contact"].each do |page| %>
+		<% ["Home", "Bio", "Gallery", "Music", "Tour", "Videos", "Contact", "Merch"].each do |page| %>
 			<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}" ) %></li>
 		<% end %>
 	</ul>
@@ -31,3 +31,6 @@
 	<p id="supertitle">The official site of Singer Songwriter</p>
 	<h1>Preston Gunderson</h1>
 </header>
+<section id="subscribe" class="border"> <%# TODO: Turn this into a form, using simple_form %>
+	<a class="large-button-blue">Subscribe!</a> <%# TODO: Find out what class this link should be for a bootstrap button %>
+</section>

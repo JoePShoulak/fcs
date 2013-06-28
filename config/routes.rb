@@ -6,6 +6,7 @@ Prestongunderson::Application.routes.draw do
   match "/gallery", to: "static_pages#gallery"
   match "/tour",    to: "static_pages#tour"
   match "/contact", to: "static_pages#contact"
+  match "/merch",   to: "static_pages#merch"
   
   root to: "static_pages#home"
 
