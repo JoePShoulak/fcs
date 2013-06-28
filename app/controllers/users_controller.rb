@@ -3,10 +3,13 @@ class UsersController < ApplicationController
   end
   
   def create
-    @user = User.new(email: params[:email])
-
+    @user = User.new(params[:user])
+    
     @user.save
     redirect_to @user
   end
-
+  
+  def show
+    @user = User.find(params[:id])
+  end
 end
