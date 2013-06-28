@@ -17,8 +17,9 @@ $tab-color: $blue;
 
 .social {
 	position: relative;
+	bottom: 165px;
 	&:hover {
-		bottom: 5px;
+		bottom: 170px;
 	}
 }
 
@@ -106,7 +107,16 @@ $tab-color: $blue;
 }
 
 #singing {
-	margin-left: 110px;
+	position: relative;
+	left: 35px;
+}
+
+#minnesota {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	float: left;
+	bottom: 275px;
 }
 
 #subscribe {

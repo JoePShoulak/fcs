@@ -8,7 +8,7 @@ class UserMailer < ActionMailer::Base
   #
   def subscribe_success(user)
     @message = "Preston! Someone subscribed to your website! Here's their email: #{user.email}"
-
+    
     mail to: "joepshoulak2@gmail.com", subject: "New Subscriber"
   end
 end
