@@ -110,16 +110,30 @@ $tab-color: $blue;
 }
 
 #subscribe {
+font-size: 80%;
 	position: fixed;
 	top: 10px;
-	right: 150px;
-	width: 100px;
+	right: 100px;
+	width: 150px;
 	height: 100px;
 	text-align: center;
 	line-height: 175px;
 	border: {
 		width: 2px;
 		style: groove;
+	}
+	span, .field, #button {
+		position: relative;
+	}
+	span {
+		bottom: 80px;
+	}
+	.field {
+		width: 125px;
+		bottom: 220px;
+		}
+	#button {
+		bottom: 360px;
 	}
 }
 
@@ -211,7 +225,7 @@ h1 {
 	top: 20px;
 }
 
-p {
+p, span {
 	width: auto;
 	font-family: 'Fauna One', serif;
 }

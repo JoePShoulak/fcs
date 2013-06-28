@@ -5,7 +5,12 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     
-    @user.save
+    if @user.save
+      flash[:notice] = "Successfully subscribed."
+    else
+      flash[:notice] = "Invalid email."
+    end
+    UserMailer.subscribe_success(@user).deliver
     redirect_to @user
   end
   

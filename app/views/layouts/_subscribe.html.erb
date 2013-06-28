@@ -1,3 +1,7 @@
-<section id="subscribe" class="border"> <%# TODO: Turn this into a form, using simple_form %>
-	<a class="btn btn-primary">Subscribe!</a>
+<section id="subscribe" class="border">
+	<span id="subcribe-title">Get updates from Preston!</span>
+	<%= form_for :user, url: users_path do |f| %>
+	    <%= f.text_field :email, class: "field" %>
+	    <%= f.submit "Subscribe!", class: "btn btn-primary", id: "button" %>
+	<% end %>
 </section>

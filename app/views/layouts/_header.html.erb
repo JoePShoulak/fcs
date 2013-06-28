@@ -20,6 +20,14 @@
 	    s.parentNode.insertBefore(wf, s);
 	  })(); </script>
 </head>
+<% if flash[:notice] %>
+    <div class="alert"><%= flash[:notice] %></div>
+		<style>
+			#subscribe {
+				top: 60px;
+			}
+		</style>
+<% end %>
 <nav class="center border"> 
 	<ul>
 		<% ["Home", "Bio", "Gallery", "Music", "Tour", "Videos", "Contact", "Merch"].each do |page| %>
