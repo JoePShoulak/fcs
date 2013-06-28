@@ -147,9 +147,22 @@ font-size: 80%;
 	}
 }
 
+#soundcloud {
+	width: 250px;
+	float: left;
+	position: fixed;
+	left: 25px;
+	bottom: 223px;
+}
+
 #subscribe-confirm {
 	text-align: center;
 	font-family: 'Fauna One', serif;
+}
+
+#dewplayer {
+	float: right;
+	display: fixed;
 }
 
 /* Large containers */
