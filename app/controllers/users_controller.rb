@@ -3,6 +3,10 @@ class UsersController < ApplicationController
   end
   
   def create
-    render text: params[:user].inspect
+    @user = User.new(email: params[:email])
+
+    @user.save
+    redirect_to @user
   end
+
 end
