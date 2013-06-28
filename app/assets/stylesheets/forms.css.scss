@@ -1,0 +1,30 @@
+.simple_form {
+  div.input {
+		position: relative;
+		bottom: 220px;
+    margin-bottom: 10px;
+		width: 10em;
+  }
+  input.radio_buttons, input.check_boxes {
+    margin-right: 5px;
+  }
+  .btn {
+		position: relative;
+		bottom: 370px;
+  }
+  .alert-error {
+    color: #D00;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .hint, .error {
+    clear: left;
+    font-size: 12px;
+    color: #D00;
+    display: block;
+  }
+  .hint {
+    color: #555;
+    font-style: italic;
+  }
+}
