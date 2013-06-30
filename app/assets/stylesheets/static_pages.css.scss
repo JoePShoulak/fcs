@@ -125,21 +125,11 @@ $tab-color: $blue;
 }
 
 #status {
-	position: absolute;
-	max-height: 400px;
-	overflow: scroll;
+	position: fixed;
 	top: 155px;
 	left: 1000px;
-	width: 163px;
-	h3 {
-		position: relative;
-		top: 10px;
-		line-height: 10px;
-	}
-	p {
-		width: 153px;
-		padding: 5px 5px 5px 5px;
-	}
+	width: 225px;
+	float: right;
 }
 
 #subscribe {
@@ -147,7 +137,7 @@ $tab-color: $blue;
 	top: 10px;
 	position: absolute;
 	left: 1000px;
-	width: 160px;
+	width: 200px;
 	height: 100px;
 	text-align: center;
 	line-height: 175px;

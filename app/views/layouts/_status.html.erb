@@ -1,13 +1,4 @@
-<section id="status" class="border">
-	<h3>Update</h3>
-	<p id="latest-post">
-		<% begin %>
-			<% @graph = Koala::Facebook::API.new("CAACEdEose0cBAEF0TPnKIyJPBZB4GPlEaReZBESsogo33VTaZA39DKhxdlc1s1w7rJqitnGy2ZCnctOEEGbLq8BKmFgtIONRbdoiQGlFfI2oXIFws4xECiIKVSYCDZApC3AWxNUzcwnpGZBuIRsdU0Iseg1elSqsAZD") %>
-			<%= @graph.get_object("pgun15?fields=statuses.limit(1).fields(message)")["statuses"]["data"][0]["message"] %>
-		<% rescue %>
-			<%= "Update unavailable" %>
-		<% end %>
-	</p>
-	<span id="via">- via <a href="https://facebook.com/pgun15">Facebook</a></span>
-		<%= link_to image_tag("/assets/social/facebook.png", height: "10px", width: "10px" ), "https://facebook.com" %>
+<section id="status">
+	<a class="twitter-timeline" href="https://twitter.com/PGundersonmusic" data-widget-id="351465554969767936" id="status" width="">Tweets by @PGundersonmusic</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </section>
