@@ -125,7 +125,7 @@ $tab-color: $blue;
 }
 
 #status {
-	position: fixed;
+	position: absolute;
 	top: 155px;
 	left: 1000px;
 	width: 225px;
@@ -151,14 +151,11 @@ $tab-color: $blue;
 	span {
 		bottom: 80px;
 	}
-	.field {
-		width: 125px;
-		bottom: 220px;
-		}
 	#button {
 		bottom: 360px;
 	}
 }
+
 
 #via {
 	color: #666;
