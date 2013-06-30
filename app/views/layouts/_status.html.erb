@@ -1,4 +1,5 @@
 <section id="status" class="border">
+	<h3>Update</h3>
 	<p id="latest-post">
 		<% @graph = Koala::Facebook::API.new("CAACEdEose0cBAEF0TPnKIyJPBZB4GPlEaReZBESsogo33VTaZA39DKhxdlc1s1w7rJqitnGy2ZCnctOEEGbLq8BKmFgtIONRbdoiQGlFfI2oXIFws4xECiIKVSYCDZApC3AWxNUzcwnpGZBuIRsdU0Iseg1elSqsAZD") %>
 		<%= @graph.get_object("pgun15?fields=statuses.limit(1).fields(message)")["statuses"]["data"][0]["message"] %>
