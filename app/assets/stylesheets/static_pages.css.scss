@@ -124,6 +124,18 @@ $tab-color: $blue;
 	bottom: 275px;
 }
 
+
+#status {
+	position: fixed;
+	top: 155px;
+	left: 1000px;
+	width: 163px;
+	p {
+		width: 153px;
+		padding: 5px 5px 5px 5px;
+	}
+}
+
 #subscribe {
 	font-size: 80%;
 	top: 10px;
