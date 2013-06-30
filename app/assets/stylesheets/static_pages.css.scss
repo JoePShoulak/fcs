@@ -124,9 +124,10 @@ $tab-color: $blue;
 	bottom: 275px;
 }
 
-
 #status {
-	position: fixed;
+	position: absolute;
+	max-height: 400px;
+	overflow: scroll;
 	top: 155px;
 	left: 1000px;
 	width: 163px;
@@ -144,7 +145,7 @@ $tab-color: $blue;
 #subscribe {
 	font-size: 80%;
 	top: 10px;
-	position: fixed;
+	position: absolute;
 	left: 1000px;
 	width: 160px;
 	height: 100px;
@@ -205,7 +206,7 @@ $tab-color: $blue;
 
 #soundcloud {
 	width: 250px;
-	position: fixed;
+	position: absolute;
 	left: 25px;
 	top: 10px;
 }
@@ -217,7 +218,8 @@ $tab-color: $blue;
 
 /* Large containers */
 body {
-	min-width: 1000px;
+	min-width: 2000px;
+	overflow-x: hidden;
 	background: {
 		color: #ccc;
 		image:	url("/assets/wood-tile.jpg");
