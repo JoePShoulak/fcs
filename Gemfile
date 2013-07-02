@@ -13,7 +13,7 @@ group :development, :test do
 end
 
 gem 'pg'
-gem "koala", "~> 1.7.0rc1"
+gem 'koala', '~> 1.7.0rc1'
 
 # Gems used only for assets and not required
 # in production environments by default.

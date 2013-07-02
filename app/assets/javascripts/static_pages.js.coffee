@@ -4,3 +4,4 @@ $(document).ready ->
 	$("#vid"		).css("left", (mainwidth - $("#vid"		).width())/2)
 	jQuery ->
 		$("a.fancybox").fancybox()
+	
