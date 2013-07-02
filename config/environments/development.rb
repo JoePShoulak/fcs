@@ -24,7 +24,7 @@ Prestongunderson::Application.configure do
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: "Prestongundersonemaillist@gmail.com",
-    password: ENV["PRESTON_GMAIL_PASSWORD"],
+    password: "GreenRecluse",
     openssl_verify_mode: "none"
   }
 
