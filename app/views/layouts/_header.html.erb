@@ -5,20 +5,7 @@
 	<%= stylesheet_link_tag    	"application", :media => "all" %>
 	<%= javascript_include_tag 	"application" %>
 	<%= csrf_meta_tags %>
-	
-	<script type="text/javascript">
-	  WebFontConfig = {
-	    google: { families: [ 'Fauna+One::latin', 'Mr+Bedfort::latin' ] }
-	  };
-	  (function() {
-	    var wf = document.createElement('script');
-	    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-	      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-	    wf.type = 'text/javascript';
-	    wf.async = 'true';
-	    var s = document.getElementsByTagName('script')[0];
-	    s.parentNode.insertBefore(wf, s);
-	  })(); </script>
+
 </head>
 <% if flash[:notice] %>
     <div class="alert"><%= flash[:notice] %></div>
@@ -29,7 +16,7 @@
 			#tweet-stream {
 				top: 200px;
 			}
-			</style>
+		</style>
 <% end %>
 <nav class="center border"> 
 	<ul>
