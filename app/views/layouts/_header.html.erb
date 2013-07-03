@@ -5,8 +5,8 @@
 	<%= stylesheet_link_tag    	"application", :media => "all" %>
 	<%= javascript_include_tag 	"application" %>
 	<%= csrf_meta_tags %>
-
 </head>
+
 <% if flash[:notice] %>
     <div class="alert"><%= flash[:notice] %></div>
 		<style>
@@ -21,7 +21,7 @@
 <nav class="center border"> 
 	<ul>
 		<% ["Home", "Bio", "Gallery", "Music", "Tour", "Videos", "Contact"].each do |page| %>
-			<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}" ) %></li>
+			<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}", class: "local-nav") %></li>
 		<% end %>
 		<li><%= link_to( "MERCH", "https://prestongunderson.bigcartel.com") %></li>
 	</ul>
