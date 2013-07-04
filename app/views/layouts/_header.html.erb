@@ -21,7 +21,7 @@
 <nav class="center border"> 
 	<ul>
 		<% ["Home", "Bio", "Gallery", "Music", "Tour", "Videos", "Contact"].each do |page| %>
-			<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}", class: "local-nav") %></li>
+			<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}") %></li>
 		<% end %>
 		<li><%= link_to( "MERCH", "https://prestongunderson.bigcartel.com") %></li>
 	</ul>
