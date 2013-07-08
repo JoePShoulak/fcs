@@ -5,10 +5,10 @@ gem 'bootstrap-sass', '2.1'
 gem 'simple_form'
 gem 'rspec'
 gem 'pg'
-gem 'koala', '~> 1.7.0rc1'
 gem 'jquery-rails'
 gem 'fancybox-rails'
 gem 'newrelic_rpm'
+gem 'thin'
 
 group :development, :test do 
   gem 'sqlite3'
