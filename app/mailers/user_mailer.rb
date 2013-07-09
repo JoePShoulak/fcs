@@ -1,14 +1,9 @@
 class UserMailer < ActionMailer::Base
-  default from: 'preston@prestongunderson.com'
+  default from: 'Prestongundersonemaillist@gmail.com'
 
-  # Subject can be set in your I18n file at config/locales/en.yml
-  # with the following lookup:
-  #
-  #   en.user_mailer.subscribe_success.subject
-  #
   def subscribe_success(user)
     @message = "Preston! Someone subscribed to your website! Here's their email: #{user.email}"
     
-    mail to: 'Prestongundersonmusic@gmail.com', subject: 'New Subscriber'
+    mail to: 'prestongundersonmusic@gmail.com', subject: 'New Subscriber'
   end
 end
