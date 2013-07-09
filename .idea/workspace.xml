@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/music.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/music.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss" />
     </list>
     <ignored path="pregun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +17,7 @@
     <file path="/static_pages_controller.rb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373305108497" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/assets/stylesheets/application.css" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373310251529" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/assets/stylesheets/static_pages.css.scss" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373311538059" ignored="false" />
-    <file path="/static_pages.css.scss" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373348381207" ignored="false" />
+    <file path="/static_pages.css.scss" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373393797727" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/views/static_pages/about.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373307746807" ignored="false" />
     <file path="/about.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373307483979" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/views/static_pages/contact.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373311297993" ignored="false" />
@@ -25,7 +26,7 @@
     <file path="/home.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373307767490" ignored="false" />
     <file path="/photos.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373311126899" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/views/static_pages/photos.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373311130067" ignored="false" />
-    <file path="/music.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373311178788" ignored="false" />
+    <file path="/music.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373393661293" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/views/static_pages/music.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373311259434" ignored="false" />
     <file path="/store.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373307801681" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/views/static_pages/store.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373307818363" ignored="false" />
@@ -47,7 +48,7 @@
     <file path="$PROJECT_DIR$/../MusicanTemplate/app/assets/javascripts/static_pages.js.coffee" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373310300472" ignored="false" />
     <file path="/static_pages.js.coffee" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373310293654" ignored="false" />
     <file path="/newrelic.yml" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373312139617" ignored="false" />
-    <file path="/_soundcloud.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373344570454" ignored="false" />
+    <file path="/_soundcloud.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373393472994" ignored="false" />
     <file path="$PROJECT_DIR$/../joepshoulak/app/views/static_pages/services.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373349050114" ignored="false" />
     <file path="/services.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373349050114" ignored="false" />
     <file path="$PROJECT_DIR$/../joepshoulak/app/assets/stylesheets/static_pages.css.scss" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373348393922" ignored="false" />
@@ -70,10 +71,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="54" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.42789224">
+            <state line="18" column="54" selection-start="1126" selection-end="1126" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_soundcloud.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="9" selection-end="195" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/music.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="static_pages.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="0" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.55573505">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_tweet-stream.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_tweet-stream.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -98,9 +135,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/newrelic.yml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/music.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss" />
       </list>
     </option>
   </component>
@@ -644,16 +682,6 @@
         <state line="5" column="54" selection-start="196" selection-end="196" vertical-scroll-proportion="0.18472907" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="12" selection-start="3171" selection-end="3171" vertical-scroll-proportion="0.79136693" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="44" selection-start="230" selection-end="230" vertical-scroll-proportion="0.03816794" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -661,7 +689,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.42789224">
+        <state line="18" column="54" selection-start="1126" selection-end="1126" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="9" selection-end="195" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/music.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_tweet-stream.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="0" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.55573505">
           <folding />
         </state>
       </provider>

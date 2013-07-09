@@ -1,6 +1,11 @@
 <% provide(:title, "Music") %>
 <section class="center border" id="main">
-	<p class="indent">Click on an album to view it in iTunes</p>
+  <iframe width="650px" height="450px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F42699254"></iframe>
+  <br />
+  <br />
+  <br />
+  <br />
+  <p class="indent">Click on an album to view it in iTunes</p>
 	<% @albums.each do |album| %>
 		<section class='album'>
 			<%= link_to( image_tag(album[1]), album[0] ) %>
