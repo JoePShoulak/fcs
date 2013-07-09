@@ -48,7 +48,20 @@ Prestongunderson::Application.configure do
   # config.assets.precompile += %w( search.js )
 
   # Disable delivery errors, bad email addresses will be ignored
-  # config.action_mailer.raise_delivery_errors = false
+  # Don't care if the mailer can't send
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = { :host => 'http://www.prestongunderson.com' }
+  config.action_mailer.smtp_settings = {
+      address: 'smtp.gmail.com',
+      port: 587,
+      authentication: 'plain',
+      enable_starttls_auto: true,
+      user_name: 'Prestongundersonemaillist@gmail.com',
+      password: 'GreenRecluse',
+      openssl_verify_mode: 'none'
+  }
 
   # Enable threaded mode
   # config.threadsafe!
