@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/_musicplayer.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_soundcloud.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pregun.iml" afterPath="$PROJECT_DIR$/.idea/pregun.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" name="Default" comment="" />
     <ignored path="pregun.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373344285905" ignored="false" />
+    <file path="/Dummy.txt" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373345580988" ignored="false" />
     <file path="$PROJECT_DIR$/../MusicanTemplate/Gemfile" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373311635174" ignored="false" />
     <file path="/Gemfile" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373310981216" ignored="false" />
     <file path="/routes.rb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373308120904" ignored="false" />
@@ -53,6 +45,8 @@
     <file path="/static_pages.js.coffee" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373310293654" ignored="false" />
     <file path="/newrelic.yml" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373312139617" ignored="false" />
     <file path="/_soundcloud.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373344570454" ignored="false" />
+    <file path="$PROJECT_DIR$/../joepshoulak/app/views/static_pages/services.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373348272579" ignored="false" />
+    <file path="/services.html.erb" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373345850399" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,10 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+              <folding>
+                <marker date="1373248100000" expanded="true" signature="21:285" placeholder="..." />
+                <marker date="1373248100000" expanded="true" signature="171:277" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -354,7 +351,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../joepshoulak" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -681,7 +678,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1373248100000" expanded="true" signature="21:285" placeholder="..." />
+            <marker date="1373248100000" expanded="true" signature="171:277" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
