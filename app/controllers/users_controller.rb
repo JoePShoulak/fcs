@@ -4,14 +4,15 @@ class UsersController < ApplicationController
   
   def create
     @user = User.new(params[:user])
+    @user.email.downcase!
         
     if @user.save
       UserMailer.subscribe_success(@user).deliver
-      flash[:notice] = "Successfully subscribed!"
+      flash[:notice] = 'Successfully subscribed!'
       redirect_to @user
     else
       flash[:notice] = "Email #{@user.errors.messages[:email][0]}."
-      redirect_to home_path
+      redirect_to '/'
     end
   end
   

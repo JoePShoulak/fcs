@@ -1,14 +1,14 @@
 <head>
 	<% @title = yield(:title) %>
 	<title>Preston Gunderson | <%= @title %></title>
-	<%= stylesheet_link_tag 		"http://fonts.googleapis.com/css?family=Fauna+One|Mr+Bedfort|Milonga" %>
-	<%= stylesheet_link_tag    	"application", :media => "all" %>
-	<%= javascript_include_tag 	"application" %>
+	<%= stylesheet_link_tag 	'http://fonts.googleapis.com/css?family=Fauna+One|Mr+Bedfort|Milonga' %>
+	<%= stylesheet_link_tag    	'application', :media => 'all' %>
+	<%= javascript_include_tag 	'application' %>
 	<%= csrf_meta_tags %>
 </head>
 
 <% if flash[:notice] %>
-    <div class="alert"><%= flash[:notice] %></div>
+    <div class='alert'><%= flash[:notice] %></div>
 		<style>
 			#subscribe, #soundcloud {
 				top: 60px;
@@ -21,15 +21,15 @@
             }
 		</style>
 <% end %>
-<nav class="center border"> 
+<nav class='center border'> 
 	<ul>
-		<% ["Home", "Bio", "Gallery", "Music", "Tour", "Videos", "Contact"].each do |page| %>
-			<li><%= link_to( page.upcase, @title == page ? "#" : "/#{page.downcase}") %></li>
+		<% ['Home', 'Bio', 'Gallery', 'Music', 'Tour', 'Videos', 'Contact'].each do |page| %>
+			<li><%= link_to( page.upcase, @title == page ? '#' : "/#{page.downcase}") %></li>
 		<% end %>
-		<li><%= link_to( "MERCH", "https://prestongunderson.bigcartel.com") %></li>
+		<li><%= link_to( 'MERCH', 'https://prestongunderson.bigcartel.com') %></li>
 	</ul>
 </nav>
-<header class="center border" id="head-box">
-	<p id="supertitle">The official site of Singer Songwriter</p>
+<header class='center border' id='head-box'>
+	<p id='supertitle'>The official site of Singer Songwriter</p>
 	<h1>Preston Gunderson</h1>
 </header>

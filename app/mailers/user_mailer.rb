@@ -6,4 +6,11 @@ class UserMailer < ActionMailer::Base
     
     mail to: 'prestongundersonmusic@gmail.com', subject: 'New Subscriber'
   end
+
+  def update(user, email)
+    @message = email.message
+    @user = user
+    address = user.email
+    mail to: address, subject: email.subject
+  end
 end

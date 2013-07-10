@@ -1,15 +1,17 @@
 Prestongunderson::Application.routes.draw do
-  match "/home",    to: "static_pages#home"
-  match "/bio",     to: "static_pages#bio"
-  match "/videos",  to: "static_pages#videos"
-  match "/music",   to: "static_pages#music"
-  match "/gallery", to: "static_pages#gallery"
-  match "/tour",    to: "static_pages#tour"
-  match "/contact", to: "static_pages#contact"
-  match "/merch",   to: "static_pages#merch"
+  match '/home',    to: 'static_pages#home'
+  match '/bio',     to: 'static_pages#bio'
+  match '/videos',  to: 'static_pages#videos'
+  match '/music',   to: 'static_pages#music'
+  match '/gallery', to: 'static_pages#gallery'
+  match '/tour',    to: 'static_pages#tour'
+  match '/contact', to: 'static_pages#contact'
+  match '/merch',   to: 'static_pages#merch'
+  match '/admin',   to: 'static_pages#admin'
   resources :users
+  resources :emails
   
-  root to: "static_pages#home"
+  root to: 'static_pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -58,11 +60,11 @@ Prestongunderson::Application.routes.draw do
   #     resources :products
   #   end
 
-  # You can have the root of your site routed with "root"
+  # You can have the root of your site routed with 'root'
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
 
-  # See how all your routes lay out with "rake routes"
+  # See how all your routes lay out with 'rake routes'
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.

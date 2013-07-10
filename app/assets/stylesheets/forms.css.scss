@@ -1,17 +1,21 @@
 .simple_form {
   div.input {
-		position: relative;
-		bottom: 220px;
-    margin-bottom: 10px;
-		width: 200px;
+    .bad {
+      position: relative;
+      bottom: 220px;
+      margin-bottom: 10px;
+      width: 200px;
+    }
+
   }
   input.radio_buttons, input.check_boxes {
     margin-right: 5px;
   }
-  .btn {
-		position: relative;
-		bottom: 370px;
-  }
+  #subscribe-button {
+    position: relative;
+    bottom: 360px;
+   }
+
   .alert-error {
     color: #D00;
     margin-bottom: 10px;

@@ -1,0 +1,11 @@
+<% provide(:title, 'Emails | New') %>
+<section class="center border" id="main">
+  <%= simple_form_for :emails, url: :emails do |f| %>
+      <%= f.input :subject, required: false %>
+      <%= f.input :message,
+                  as: :text,
+                  required: false,
+                  input_html: {style: 'height: 200px; width: 400px; resize: none;'} %>
+      <%= f.button :submit, 'Send!', class: 'btn btn-primary' %>
+  <% end %>
+</section>
