@@ -7,7 +7,6 @@ class UsersController < ApplicationController
     @user.email.downcase!
         
     if @user.save
-      UserMailer.subscribe_success(@user).deliver
       flash[:notice] = 'Successfully subscribed!'
       redirect_to @user
     else

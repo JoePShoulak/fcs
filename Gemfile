@@ -10,6 +10,7 @@ gem 'fancybox-rails'
 gem 'newrelic_rpm'
 gem 'thin'
 gem 'delayed_job_active_record'
+gem 'daemons'
 
 group :development, :test do 
   gem 'sqlite3'
