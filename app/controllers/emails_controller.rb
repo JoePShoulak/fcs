@@ -1,5 +1,5 @@
 class EmailsController < ApplicationController
-  http_basic_authenticate_with name: 'Preston Gunderson', password: 'Joe'
+  http_basic_authenticate_with name: 'Preston Gunderson', password: 'GreenRecluse'
   def index
   end
 
