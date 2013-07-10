@@ -1,6 +1,6 @@
 <% provide(:title, "Emails | Index") %>
 <section class="center border" id="main">
-  <%= link_to 'Send a new email!', '/emails/new' %>
+  <h4><%= link_to 'Send a new email!', '/emails/new' %></h4>
   <% Email.all.reverse.each do |e| %>
     <container>
       <h4><%= e.subject %></h4>
