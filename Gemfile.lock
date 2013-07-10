@@ -39,11 +39,6 @@ GEM
       execjs
     coffee-script-source (1.6.2)
     daemons (1.1.9)
-    delayed_job (3.0.5)
-      activesupport (~> 3.0)
-    delayed_job_active_record (0.4.3)
-      activerecord (>= 2.1.0, < 4)
-      delayed_job (~> 3.0)
     diff-lcs (1.2.4)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -133,8 +128,6 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (= 2.1)
   coffee-rails (~> 3.2.1)
-  daemons
-  delayed_job_active_record
   fancybox-rails
   jquery-rails
   newrelic_rpm

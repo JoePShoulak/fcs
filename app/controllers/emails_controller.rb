@@ -9,8 +9,8 @@ class EmailsController < ApplicationController
   def create
     @email = Email.new(params[:emails])
     if @email.save
-      @email.delay.deliver
-      flash[:notice] = 'Sending update'
+      @email.deliver
+      flash[:notice] = 'Updates sent'
       redirect_to '/emails'
     else
       flash[:notice] = "#{@email.errors.messages.keys[0].capitalize} can't be blank."
