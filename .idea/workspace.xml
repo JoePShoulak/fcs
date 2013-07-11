@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/email.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/static_pages.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/static_pages.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" name="Default" comment="" />
     <ignored path="pregun.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7634f5fc-7e42-4b61-92bf-2cfdcbde7a68" time="1373577488822" ignored="false" />
@@ -96,7 +92,7 @@
       <file leaf-file-name="static_pages.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/static_pages.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="78" selection-end="78" vertical-scroll-proportion="0.091883615">
+            <state line="4" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="0.091883615">
               <folding />
             </state>
           </provider>
@@ -896,7 +892,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/static_pages.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="78" selection-end="78" vertical-scroll-proportion="0.091883615">
+        <state line="4" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="0.091883615">
           <folding />
         </state>
       </provider>
