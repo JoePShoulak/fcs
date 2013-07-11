@@ -1,10 +1,10 @@
 class UserMailer < ActionMailer::Base
   default from: 'Prestongundersonemaillist@gmail.com'
 
-  def update(user, email)
-    @message = email.message
+  def update(user, subject, message)
+    @message = message
     @user = user
     address = user.email
-    mail to: address, subject: email.subject
+    mail to: address, subject: subject
   end
 end

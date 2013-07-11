@@ -1,5 +1,4 @@
 class StaticPagesController < ApplicationController
-  http_basic_authenticate_with name: 'Preston Gunderson', password: 'GreenRecluse', only: :admin
   def home
     @model_src = '/assets/photos/small/model.jpg'
     @quote_src = '/assets/quote.jpg'
