@@ -1,6 +1,6 @@
 $(document).ready ->
 	jQuery ->
-		$("a.fancybox").fancybox()
+    $("a.fancybox").fancybox()
 	jQuery ->
     $(document).pjax('a.local-nav', '[data-pjax-container]')
 	
