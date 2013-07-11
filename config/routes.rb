@@ -9,8 +9,7 @@ Prestongunderson::Application.routes.draw do
   match '/merch',   to: 'static_pages#merch'
   match '/admin',   to: 'static_pages#admin'
   resources :users
-  resources :emails
-  
+
   root to: 'static_pages#home'
 
   # The priority is based upon order of creation:

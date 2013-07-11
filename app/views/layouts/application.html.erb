@@ -6,9 +6,11 @@
 	<%= render 'layouts/tweet-stream' %>
 
 	<body>
-		
-		<%= yield %>
-		
+
+        <div data-pjax-container>
+          <%= yield %>
+        </div>
+
 		<%= render 'layouts/footer' %>
 		<%= render 'layouts/google_analytics' %>
 	</body>
