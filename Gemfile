@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'fancybox-rails'
 gem 'thin'
 gem 'rack-pjax'
+gem 'newrelic_rpm'
 
 group :development, :test do 
   gem 'sqlite3'
