@@ -16,24 +16,28 @@ class StaticPagesController < ApplicationController
     green_url         = itunes_prefix + 'green-single/id510678840'
     recluse_url       = itunes_prefix + 'the-recluse-ep/id579311062'
     gone_url          = itunes_prefix + 'while-i-was-gone/id486808582'
+    starting_url      = itunes_prefix + 'getting-good-at-starting-over/id728812168'
     
     accident_src      = '/assets/albums/accident.jpg'
     forever_src       = '/assets/albums/forever.jpg'
     green_src         = '/assets/albums/green.jpg'
     recluse_src       = '/assets/albums/recluse.jpg'
     gone_src          = '/assets/albums/gone.jpg'
+    starting_src      = '/assets/albums/starting.jpg'
     
     accident_name     = 'Accidental Love Letters'
     forever_name      = 'Forever and Tomorrow'
     green_name        = 'Green'
     recluse_name      = 'The Recluse'
     gone_name         = 'While I Was Gone'
+    starting_name     = 'Getting Good at Starting Over'
     
     @albums = [ [accident_url,  accident_src, accident_name ],
                 [forever_url,   forever_src,  forever_name  ],
                 [green_url,     green_src,    green_name    ],
                 [recluse_url,   recluse_src,  recluse_name  ],
-                [gone_url,      gone_src,     gone_name     ] ]
+                [gone_url,      gone_src,     gone_name     ],
+                [starting_url,  starting_src, starting_name ] ]
   end
 
   def videos
