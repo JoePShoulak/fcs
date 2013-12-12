@@ -20,10 +20,9 @@
 <% end %>
 <nav class='center border'> 
 	<ul>
-		<% ['Home', 'Bio', 'Gallery', 'Music', 'Tour', 'Videos', 'Contact'].each do |page| %>
+		<% ['Home', 'Bio', 'Gallery', 'Music', 'Tour', 'Videos', 'Contact', 'Merch'].each do |page| %>
 			<li><%= link_to( page.upcase, "/#{page.downcase}", class: 'local-nav') %></li>
 		<% end %>
-		<li><%= link_to( 'MERCH', 'https://prestongunderson.bigcartel.com') %></li>
 	</ul>
 </nav>
 <header class='center border' id='head-box'>

@@ -196,6 +196,19 @@ $g8: rgba(189,243,253,1);
   top: 470px;
 }
 
+#album-hard {
+  width: 200px;
+  position: relative;
+  top: 20px;
+}
+
+#shirt {
+  float: right;
+  width: 200px;
+  position: relative;
+  bottom: 200px;
+}
+
 /* Large containers */
 body {
 	width: 1200px;
@@ -273,6 +286,10 @@ h1 {
 	font-size: 400%;
 	position: relative;
 	top: 20px;
+}
+
+h2 {
+        text-align: center;
 }
 
 p, span {
