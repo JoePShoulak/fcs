@@ -1,20 +1,11 @@
 Prestongunderson::Application.routes.draw do
 
   match '/home',    to: 'static_pages#home'
-  match '/bio',     to: 'static_pages#bio'
-  match '/videos',  to: 'static_pages#videos'
-  match '/music',   to: 'static_pages#music'
-  match '/gallery', to: 'static_pages#gallery'
-  match '/tour',    to: 'static_pages#tour'
+  match '/about',   to: 'static_pages#about'
+  match '/gear',    to: 'static_pages#gear'
   match '/contact', to: 'static_pages#contact'
-  match '/merch',   to: 'static_pages#merch'
   match '/admin',   to: 'static_pages#admin'
-  resources :users
-
-  match '/email',         to: 'email#index'
-  match '/email/compose', to: 'email#compose'
-  match '/email/deliver', to: 'email#deliver'
-
+  
   root to: 'static_pages#home'
 
   # The priority is based upon order of creation:

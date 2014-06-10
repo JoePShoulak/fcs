@@ -1,19 +1,19 @@
 <head>
 	<% @title = yield(:title) %>
-	<title>156 | <%= @title %></title>
+	<title>Full Circle Studios | <%= @title %></title>
 	<%= stylesheet_link_tag    	'application', :media => 'all' %>
 	<%= javascript_include_tag 	'application' %>
 </head>
 
 
-<header>
+<header class="centered">
 	<p>The official site of</p>
-	<h1>156 Band</h1>
+	<h1>Full Circle Studios</h1>
 </header>
 
-<nav> 
+<nav class="centered"> 
 	<ul>
-		<% ['Home', 'Bio', 'Gallery', 'Music', 'Tour', 'Videos', 'Contact', 'Merch'].each do |page| %>
+		<% ['Home', 'About', 'Gear', 'Contact'].each do |page| %>
 			<li><%= link_to( page.upcase, "/#{page.downcase}") %></li>
 		<% end %>
 	</ul>
