@@ -4,7 +4,7 @@ Prestongunderson::Application.routes.draw do
   match '/about',   to: 'static_pages#about'
   match '/gear',    to: 'static_pages#gear'
   match '/contact', to: 'static_pages#contact'
-  match '/admin',   to: 'static_pages#admin'
+  match '/gallery', to: 'static_pages#gallery'
   
   root to: 'static_pages#home'
 
