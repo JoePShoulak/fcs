@@ -5,12 +5,19 @@ body {
 
 }
 
+#head-left {
+  
+}
+
+#head-right {
+}
+
 h1 {
 	text-align: center;
 	color: #fff;
 }
 
-h4 {
+h4, h3 {
 	color: #fff;
 }
 
@@ -28,7 +35,7 @@ p {
 
 .centered {
 	background-color: #000;
-	width: 600px;
+	width: 800px;
 	margin: {
 		top: 10px;
 		left: auto;
