@@ -1,7 +1,7 @@
 Prestongunderson::Application.routes.draw do
 
   match '/home',    to: 'static_pages#home'
-  match '/about',   to: 'static_pages#about'
+  match '/clients', to: 'static_pages#clients'
   match '/gear',    to: 'static_pages#gear'
   match '/contact', to: 'static_pages#contact'
   match '/gallery', to: 'static_pages#gallery'

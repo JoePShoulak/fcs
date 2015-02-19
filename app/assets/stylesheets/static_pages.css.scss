@@ -1,6 +1,9 @@
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Oswald|Francois+One|Scada);
 
+
+$main-red: lighten(rgb(87, 15, 18), 15%);
+
 body {
 	background-color: #252525;
 	// background-color: #000; // Matt likes this shit
@@ -20,9 +23,13 @@ h1 {
 	color: #fff;
 }
 
-h4, h3 {
+h3 {
 	color: #fff;
 }
+
+h4 {
+	color: lighten($main-red, 10%);
+} 
 
 footer {
 	text-align: center;
@@ -67,11 +74,11 @@ nav ul {
 		text-align: center;
 		display: inline;
 		a, a:active {
-			color: lighten(rgb(87, 15, 18), 10%);
+			color: lighten($main-red, 10%);
 			text-decoration: none;
 		}
 		a:hover {
-			color: rgb(87, 15, 18);
+			color: $main-red;
 			text-decoration: none;
 		}
 	}
