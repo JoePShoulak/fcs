@@ -2,13 +2,10 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
-gem 'simple_form'
 gem 'rspec'
 gem 'pg'
 gem 'jquery-rails'
-gem 'fancybox-rails'
 gem 'thin'
-gem 'rack-pjax'
 gem 'newrelic_rpm'
 
 group :development, :test do 

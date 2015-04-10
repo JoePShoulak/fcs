@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Prestongunderson::Application.load_tasks
+FCR::Application.load_tasks

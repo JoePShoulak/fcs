@@ -10,6 +10,10 @@ body {
 	font-family: "scada";
 }
 
+.pic {
+	float: right;
+}
+
 #main-title {
 	font-family: "oswald";
 	a, a:active, a:hover {
@@ -41,6 +45,15 @@ p {
 
 #main {
 	min-height: 300px;
+}
+
+.lightview {
+	margin: {
+		top: 10px;
+		bottom: 10px;
+		left: 10px;
+		right: 10px;
+	};
 }
 
 .centered {

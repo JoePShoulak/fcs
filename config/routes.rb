@@ -1,4 +1,4 @@
-Prestongunderson::Application.routes.draw do
+FCR::Application.routes.draw do
 
   match '/home',    to: 'static_pages#home'
   match '/clients', to: 'static_pages#clients'

@@ -1,6 +1,14 @@
 <% provide(:title, "Gallery") %>
 <section class="centered" id="main">
 	<p>
-		Gallery
+		Gallery (click image to enter slideshow)
 	</p>
-</section>
+
+	<% [1, 2, 16, 18, 23, 24, 25, 27, 28, 31, 32, 29, 35, 45, 46, 47, 48, 10, 8].each do |pic| %>
+	   	<a href="/assets/gallery/image<%=pic%>.JPG" 
+	   	   class="lightview centered" 
+	   	   data-lightview-group="gallery"><img src="/assets/gallery/image<%=pic%>.JPG" onload="this.width*=0.9;"/></a>
+		   <br />
+		   <br />
+	<% end %>
+

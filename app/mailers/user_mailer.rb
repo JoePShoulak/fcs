@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: 'Prestongundersonemaillist@gmail.com'
+  default from: 'FCRemaillist@gmail.com'
 
   def update(user, subject, message)
     @message = message

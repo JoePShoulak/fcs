@@ -1,4 +1,4 @@
-Prestongunderson::Application.configure do
+FCR::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -23,7 +23,7 @@ Prestongunderson::Application.configure do
     port: 587,
     authentication: 'plain',
     enable_starttls_auto: true,
-    user_name: 'Prestongundersonemaillist@gmail.com',
+    user_name: 'FCRemaillist@gmail.com',
     password: 'GreenRecluse',
     openssl_verify_mode: 'none'
   }
