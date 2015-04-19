@@ -2,11 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
-gem 'rspec'
 gem 'pg'
 gem 'jquery-rails'
-gem 'thin'
-gem 'newrelic_rpm'
 
 group :development, :test do 
   gem 'sqlite3'
